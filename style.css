@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Nav container css start  */
+
+.nav-container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: gray;
+   padding: 15px;
+
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+   
+}
+
+.menus > li{
+   margin-right: 20px;
+   font-weight: 400;
+}
+
+.menus > li:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Banner container  */
+
+
+.banner-container{
+    background-image: url("asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items:center;
+}
+
+.banner-title{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+
+}
+
+.banner-title  span {
+    color: orangered;
+}
+
+
+.banner-des{
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.btn-primary{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.btn-primary:hover{
+    background-color: orangered;
+    color: #fff;
+}
+
+.bg-primary:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+
+}
+
+.bg-primary{
+    background-color: orangered;
+    color: #fff;
+}
