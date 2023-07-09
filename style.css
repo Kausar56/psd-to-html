@@ -232,3 +232,140 @@
   cursor: pointer;
 
 }
+
+
+
+
+
+/* appoinment css  */
+
+.appoinment-container{
+     display: flex;
+     justify-content: space-around;
+     width: 70%;
+     margin: auto;
+     align-items: center;
+     margin-top: -50px;
+     color: #fff;
+     background-color: orangered;
+     padding: 30px;
+
+}
+
+
+.appoinment-phone{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid gray;
+    padding-right: 10px;
+
+}
+
+.appoinment-phone h4{
+    padding-left: 5px;
+}
+.appoinment-img{
+
+    width: 100px;
+}
+
+
+.appoinment-desc{
+    color: #fff;
+    padding:0px 15px;
+}
+
+
+.apt-btn{
+    border:none;
+    background-color: #fff;
+    color: orangered;
+    padding: 17px 26px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.apt-btn:hover{
+    color:#fff;
+    background-color: orangered;
+    border: 2px solid #ffffffa2;
+
+}
+
+
+
+/* blog and news aria style  */
+
+.blog-header{
+
+    text-align: center;
+    margin: 30px 0px;
+}
+
+
+
+.blog-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+
+
+
+}
+
+
+
+
+.box-1{
+  width: 350px;
+  height: 430px;
+  text-align:left;
+  box-shadow: 0px 0px 10px -2px gray;
+}
+
+.blog-img{
+    width: 350px;
+}
+
+.blog-box-title{
+    padding: 5px;
+    color: #000000;
+}
+
+.blog-box-des{
+    padding: 5px;
+    color: #000000;
+}
+
+
+
+/* footer section css  */
+
+
+.footer-container{
+    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+    .footer-link{
+       margin-top: 15px;
+    }
+
+    .footer-link i{
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .ul-style li{
+        list-style: none;
+        margin: 8px 0px;
+    }
